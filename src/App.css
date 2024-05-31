@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  background-color: rgb(241, 241, 241);
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.contents {
+  display: grid;
+  grid-template-columns: 1.7fr 0.8fr;
+  width: 81%;
+  gap: 25px;
+}
